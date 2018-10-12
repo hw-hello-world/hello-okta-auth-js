@@ -1,0 +1,25 @@
+{
+  "name": "hello-okta-auth-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.11.7",
+    "install": "^0.12.1",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  },
+  "dependencies": {
+    "@okta/okta-auth-js": "^2.0.1",
+    "ts-loader": "^5.2.1",
+    "typescript": "^3.1.3"
+  }
+}
