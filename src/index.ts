@@ -1,14 +1,13 @@
+import Q from 'q';
 
-// both works.
-// import OktaAuth = require('@okta/okta-auth-js');
-var OktaAuth = require('@okta/okta-auth-js');
+import OktaAuth = require('@okta/okta-auth-js');
 
 var config = {
     issuer: 'https://hw.trexcloud.com/oauth2/default',
     clientId: '0oa2lbz1s8e77z4gQ0g7',
 };
 var authClient = new OktaAuth(config);
-authClient.token.verify
+
 function component() {
     let element = document.createElement('button');
 
