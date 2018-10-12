@@ -1,5 +1,7 @@
 
-import OktaAuth = require('@okta/okta-auth-js');
+// both works.
+// import OktaAuth = require('@okta/okta-auth-js');
+var OktaAuth = require('@okta/okta-auth-js');
 
 var config = {
     issuer: 'https://hw.trexcloud.com/oauth2/default',
